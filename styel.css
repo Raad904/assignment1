@@ -332,25 +332,20 @@ nav ul{
     align-items: center;
     flex-wrap: wrap;
 }
-
 .footer p {
     color: #9ca3af;
     font-size: 14px;
     font-family: Arial, sans-serif;
 }
-
 .footer-links {
     display: flex;
     gap: 25px;
 }
-
 .footer-links a {
     text-decoration: none;
     color: #9ca3af;
-    font-size: 14px;
-   
+    font-size: 14px;  
 }
-
 .footer-links a:hover {
     color: #ffffff;
 }
