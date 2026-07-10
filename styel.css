@@ -188,11 +188,8 @@ nav ul{
     color:#2f63f2;
 }
 /* MADE BY AI */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-        
-        
-        .ai-made {
+    .ai-made {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -207,8 +204,7 @@ nav ul{
             border-radius: 13px;
             margin-top: 10px;
         }
-
-        /* Background-er decorative orbs (Unique Look dewar jonno) */
+ /* Background-er decorative orbs (Unique Look dewar jonno) */
         .orb {
             position: absolute;
             border-radius: 50%;
@@ -229,8 +225,7 @@ nav ul{
             height: 400px;
             background: rgba(236, 72, 153, 0.15);
         }
-
-        /* Glassmorphism Login Card */
+ /* Glassmorphism Login Card */
         .login-container {
             position: relative;
             z-index: 10;
@@ -244,29 +239,25 @@ nav ul{
             box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
             text-align: center;
         }
-
-        .login-container h2 {
+.login-container h2 {
             color: #fff;
             font-size: 2rem;
             margin-bottom: 10px;
             font-weight: 600;
             letter-spacing: 1px;
         }
-
-        .login-container p {
+.login-container p {
             color: #94a3b8;
             font-size: 0.9rem;
             margin-bottom: 30px;
         }
-
-        /* Input Fields Styled */
+ /* Input Fields Styled */
         .input-group {
             position: relative;
             margin-bottom: 25px;
             text-align: left;
         }
-
-        .input-group input {
+.input-group input {
             width: 100%;
             padding: 14px 20px;
             background: rgba(255, 255, 255, 0.05);
@@ -277,19 +268,16 @@ nav ul{
             font-size: 0.95rem;
             transition: all 0.3s ease;
         }
-
-        /* Floating label effect placeholder mesh */
+/* Floating label effect placeholder mesh */
         .input-group input::placeholder {
             color: #64748b;
         }
-
-        .input-group input:focus {
+ .input-group input:focus {
             background: rgba(255, 255, 255, 0.08);
             border-color: #818cf8;
             box-shadow: 0 0 15px rgba(129, 140, 248, 0.2);
         }
-
-        /* Forgot Password link */
+ /* Forgot Password link */
         .forget-pass {
             display: block;
             text-align: right;
@@ -300,13 +288,11 @@ nav ul{
             font-size: 0.85rem;
             transition: color 0.3s;
         }
-
-        .forget-pass:hover {
+ .forget-pass:hover {
             color: #a5b4fc;
             text-decoration: underline;
         }
-
-        /* Glowing Login Button */
+/* Glowing Login Button */
         .login-btn {
             width: 100%;
             padding: 14px;
@@ -319,29 +305,24 @@ nav ul{
             cursor: pointer;
             transition: transform 0.2s, box-shadow 0.3s;
         }
-
-        .login-btn:hover {
+.login-btn:hover {
             transform: translateY(-2px);
             box-shadow: 0 10px 20px rgba(236, 72, 153, 0.3);
         }
-
-        .login-btn:active {
+.login-btn:active {
             transform: translateY(0);
         }
-
-        /* Bottom Text */
+ /* Bottom Text */
         .register-link {
             margin-top: 25px;
             color: #94a3b8;
             font-size: 0.9rem;
         }
-
-        .register-link a {
+.register-link a {
             color: #ec4899;
             text-decoration: none;
             font-weight: 600;
         }
-
-        .register-link a:hover {
+.register-link a:hover {
             text-decoration: underline;
         }
