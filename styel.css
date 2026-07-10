@@ -27,6 +27,95 @@ nav ul{
     color: aliceblue;
     font-weight: bold;
     border-radius: 10px;
-    outline: none;
+    border: none;
+    
+
     
 }
+/* END NAVIGATION */
+
+
+/* BANNER*/
+
+.banner{
+    
+    margin-top: 10px;
+     width:100%;
+    height:80vh;
+    
+     background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("./assets/banner.jpg") center center/cover no-repeat;
+      position:relative;
+       display:flex;
+    justify-content:space-between;
+    align-items:center;
+   text-align: center;
+   flex-direction: column;
+   color: wheat;
+   gap: 20px;
+    font-family: "Open Sans", sans-serif;
+
+}
+.top h1{
+    font-size: 80px;
+    margin-bottom: 8px;
+}
+.top{
+    margin: 100px;
+}
+.butt2 button{
+    margin-bottom: 130px;
+    width: 182px;
+    height: 54px;
+    background-color: #1d4ed8;
+    border: none;
+    border-radius: 12px;
+    color: aliceblue;
+    font-weight: bold;
+}
+/* BANNER END */
+
+/* <!-- Meet the Speakers Section  */
+
+.meet{
+    max-width:1200px;
+    margin:70px auto;
+     /* font-family: "Open Sans", sans-serif; */
+}
+.meet h1{
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+}
+.card{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 20px;
+}
+.man-information{
+ background:#fff;
+    border:1px solid #e5e5e5;
+    border-radius:8px;
+    overflow:hidden;
+    transition:.3s;
+}
+.man-information .p1{
+    font-size: 10px;
+    color: #1d4ed8;
+}
+.man-information .p2{
+    font-size: 12px;
+}
+.man-information img{
+     width:100%;
+    height:260px;
+    object-fit:cover;
+    /* display:block; */
+}
+.man-information:hover{
+     transform:translateY(-8px);
+}
+  
+/* <!-- Meet the Speakers Section END--> */
+
+
+/* <!-- Secure Your Spot (Pricing) Section --> */
