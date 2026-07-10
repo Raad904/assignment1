@@ -1,18 +1,15 @@
-/* NAVIGATION */
 *{
     margin: 0;
     padding: 0;
 }
 .max-width{
  max-width: 1300px;
-    margin: auto;
-   
+    margin: auto;   
 }
 nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-   
+    align-items: center;   
 }
 
 nav ul{
@@ -27,16 +24,8 @@ nav ul{
     color: aliceblue;
     font-weight: bold;
     border-radius: 10px;
-    border: none;
-    
-
-    
+    border: none;   
 }
-/* END NAVIGATION */
-
-
-/* BANNER*/
-
 .banner{
     
     margin-top: 10px;
@@ -53,7 +42,6 @@ nav ul{
    color: wheat;
    gap: 20px;
     font-family: "Open Sans", sans-serif;
-
 }
 .top h1{
     font-size: 80px;
@@ -72,10 +60,6 @@ nav ul{
     color: aliceblue;
     font-weight: bold;
 }
-/* BANNER END */
-
-/* <!-- Meet the Speakers Section  */
-
 .meet{
     max-width:1200px;
     margin:70px auto;
@@ -115,7 +99,4 @@ nav ul{
      transform:translateY(-8px);
 }
   
-/* <!-- Meet the Speakers Section END--> */
 
-
-/* <!-- Secure Your Spot (Pricing) Section --> */
