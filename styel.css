@@ -1,0 +1,32 @@
+/* NAVIGATION */
+*{
+    margin: 0;
+    padding: 0;
+}
+.max-width{
+ max-width: 1300px;
+    margin: auto;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.butt{
+    width: 192px;
+    height: 30px;
+    background-color: #1d4ed8;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    
+}
