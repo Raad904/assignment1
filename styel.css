@@ -376,7 +376,7 @@ nav ul {
 }
 
 .container {
-  display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -403,7 +403,8 @@ nav ul {
 .footer-links a:hover {
     color: #ffffff;
 }
-.icon1{
+
+.icon1 {
     color: #fff;
     font-size: 30px;
 }
